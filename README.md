@@ -1,6 +1,6 @@
 # AWS Infrastructure Setup with Terraform
 
-This repository contains Terraform scripts to create a basic Two-tier AWS infrastructure setup to host the GuitarCatalogApp made up of the SimpleFrontEnd and SimpleCrudApi SVCs. The provided Terraform script within the IaC folder handles the creation of a VPC, subnets, and necessary gateways in the EU-West-2 region. Some components have been omitted for the sake of brevity. The Terraform script in this repository creates the following infrastructure components:
+This repository contains a Terraform script to create a basic Two-tier AWS infrastructure setup to host the GuitarCatalogApp made up of the SimpleFrontEnd and the SimpleCrudApi. The provided Terraform script within the IaC folder handles the creation of a VPC, subnets, and necessary gateways in the EU-West-2 region. Please note that some components have been omitted for the sake of brevity. The Terraform script in this repository creates the following infrastructure components:
 
 ### VPC
 - A Virtual Private Cloud (VPC) in the EU-West-2 region.
@@ -19,8 +19,10 @@ This repository contains Terraform scripts to create a basic Two-tier AWS infras
 - Terraform installed on your machine.
 - AWS credentials configured on your machine.
 
-Infrastructure Diagram
-The diagram below illustrates the infrastructure that will be created by the Terraform scripts.
+### Infrastructure Diagram
+The diagram below illustrates the complete design for the Two-tier infrastructure (some components have been omitted from the terraform script for the sake of brevity).
+
+![AWS Infrastructure](InfrastructureDiagram/Two%20Tier%20Architecture.jpg)
 
 ### Future Enhancements
 - Integration with additional AWS services.
